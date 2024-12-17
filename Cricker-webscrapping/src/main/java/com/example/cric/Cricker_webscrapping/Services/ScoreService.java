@@ -15,6 +15,7 @@ public class ScoreService {
     public Score liveScore() {
         Score score = new Score();
         String url = "https://www.google.com/search?q=tomorrow+match+england+and+oman";
+        
         try {
             // Fetch the HTML content from the URL
             Document document = Jsoup.connect(url).get();
