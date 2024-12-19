@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function () {
     liveScoreBtn.addEventListener('click', function () {
         // Hide the live score button
         liveScoreBtn.style.display = 'none';
-
         // Fetch live score immediately
         fetchLiveScore();
 
